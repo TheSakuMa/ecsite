@@ -1,0 +1,246 @@
+/* ====== TAG LAYOUT ====== */
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	background-color: #fff;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	color: #fff;
+	font-size: 30px;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+header .go-cart-btn {
+	display: inline-block;
+	position: absolute;
+	right: 5%;
+	top: 35%;
+}
+
+header li {
+	list-style-type: none;
+}
+
+table {
+	text-align: center;
+	margin: 0 auto;
+}
+
+label {
+	user-select: none;
+}
+
+input {
+	margin: 5px 0;
+}
+
+/* ====== HEADER ID AND CLASS LAYOUT ====== */
+.header-wrapper {
+	width: 100%;
+	height: 100%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.header-title {
+	line-height: 100px;
+	padding: 0 10%;
+}
+
+.header-title a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.home-header-title {
+	line-height: 100px;
+	text-align: center;
+}
+
+.search {
+	width: 40%;
+	height: 100px;
+	padding: 0 10% 0 1%;
+}
+
+.wwgrp {
+	display: inline-block;
+}
+
+#search-box {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	line-height: 30px;
+}
+
+#SearchItemAction div {
+	height: 50px;
+}
+
+.keywords {
+	height: 20px;
+}
+
+.searchErrorMessage {
+	white-space: pre-line;
+}
+
+.header-searchErr {
+	width: 25%;
+	white-space: normal;
+	color: #333;
+	font-size: 7px;
+	align-self: center;
+	border: 1px solid red;
+	border-radius: 6px;
+	padding: 4px;
+	background-color: #ffe4e1;
+	margin: 0 10px;
+}
+/* ======MAIN ID AND CLASS LAYOUT====== */
+#main {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#main form {
+	width: 70%;
+	margin: 0 auto;
+}
+#main td form {
+	width: 100%;
+}
+
+#top {
+	width: 70%;
+	margin: 30px auto;
+	border: 1px solid #333;
+}
+
+#categoryId, #itemSortValue {
+	padding: 2px 0;
+}
+
+#item-wrapper {
+	width: 70%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto 10px;
+}
+
+.home-search-form select, .home-search-form input {
+	margin-bottom: 8px;
+}
+
+.login-form input {
+	margin-bottom: 6px;
+}
+
+.mypage-btn-wrapper {
+	padding-top: 30px;
+}
+
+#item-img {
+	width: 50%;
+	height: auto;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+#item-img:hover {
+	opacity: 0.7;
+}
+
+#item-img img {
+	width: 100%;
+	height: auto;
+}
+
+#item-wrapper form {
+	width: 50%;
+}
+
+#item-wrapper table {
+	width: 100%;
+}
+
+#item-wrapper table tr td div {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#item-wrapper table tr td div input {
+	cursor: pointer;
+}
+
+#footer {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	clear: both;
+}
+
+#item-details-table {
+	width: 70%;
+	margin: 30px auto;
+}
+
+#item-details-table tr>td:nth-of-type(1) {
+	background-color: #4169e1;
+	color: #fff;
+	width: 20%;
+}
+
+#item-details-table tr>td:nth-of-type(2) {
+	width: 80%;
+}
+
+#item-details-img {
+	width: 25%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+#details-to-cart select {
+	font-size: 15px;
+}
+
+#details-to-cart span {
+	font-size: 15px;
+}
+/* ====== ADMIN PAGES LAYOUT ====== */
+#admin-item-details {
+	width: 70%;
+}
+
+#admin-item-details tr>td:nth-of-type(1) {
+	width: 20%;
+}
+
+#admin-item-details tr>td:nth-of-type(2) {
+	width: 80%;
+}
+
+#admin-item-details img {
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
